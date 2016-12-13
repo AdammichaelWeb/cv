@@ -3,61 +3,24 @@
 <html>
 
 	<head>
-	<style> h1{
-		text-align:center;
-		border-bottom:2px solid grey;
-		color:red;
-		margin-top:300px;
-		font-family:verdana;
-		transform:rotate(180deg);
-		}
-		
-		ul{
-		padding-left:0;
-		}
+	<link rel="stylesheet" type="text/css" href="cv.css">
 
-		h2{
-		text-align:center;
-		color:orange;
-		border-style:groove;
-		margin:20px 400px;
-		background-color:blue;
-		font-style:italic;
-		transform:rotate(45deg);
-		}
-
-		header{
-		position:absolute;
-		top:500px;
-		right:20px;
-		}
-		
-		.monte{
-		position:absolute;
-		top:0;
-		}
-
-		.descend{
-		margin-top:300px;
-		}
-		
-		p{
-		border-bottom:dotted;
-		text-align:right;
-		}
-		
-		h3{
-		width:1000px;
-		border:2px solid black;
-		text-align:right;
-		}
-
-	</style>
 	</head>
 
 <body>
+
+	<nav>
+	<ul>
+		<li><a href="#comp">Compétences</a></li>
+		<li><a href="#expe">Experiences</a></li>
+		<li><a href="#dipl">Diplome</a></li>
+		<li><a href="#lois">Loisirs</a></li>
+	</ul>
+	</nav>
+
 	<header> 
 		<h1> Developpeur Logiciel </h1> 
+
 		<div> <!--Informations personnelles--> </div>
 			<ul>
 				<li>ADAM Michael </li>
@@ -66,8 +29,8 @@
 				<li>0662382452 </li>
 
 	</header>
-	<section class="descend"> <!--Compétences-->
-			<h2 > Compétences </h2>
+	<section class="descend" > <!--Compétences-->
+			<h2 id="comp"> Compétences </h2>
 			<ul> 
 				<li>compet.1 </li>
 				<li>compet.2 </li>
@@ -76,8 +39,8 @@
 
 	</section>
 
-	<section class="monte"> <!--Expériences-->
-			<h2> Expériences </h2>
+	<section class="monte" > <!--Expériences-->
+			<h2 id="expe"> Expériences </h2>
 			<article>
 				<h3> 2005/2011 </h3>
 				<p> Preparateur de commandes </p>
@@ -88,13 +51,13 @@
 			</article>
 	</section>
 
-	<section> <!--Diplomes-->
+	<section > <!--Diplomes-->
 		<article>
-			<h2> Diplomes </h2>
+			<h2 id="dipl"> Diplomes </h2>
 			<p> Bac pro comptabilité </p>
 	</section>
 
-	<section> <!--Loisirs-->
+	<section id="lois"> <!--Loisirs-->
 		<h2> Loisirs </h2>
 			<p> Peche, escalade, foot </p>	
 	</section>
